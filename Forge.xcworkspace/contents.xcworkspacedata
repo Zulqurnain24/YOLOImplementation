@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Forge/Forge.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:YOLOImplementation"
+      name = "YOLOImplementation">
+      <Group
+         location = "group:Common"
+         name = "Common">
+         <FileRef
+            location = "group:FPSCounter.swift">
+         </FileRef>
+         <FileRef
+            location = "group:VideoCapture.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:YOLO"
+         name = "YOLO">
+         <FileRef
+            location = "group:YOLO.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:Parameters"
+            name = "Parameters">
+            <FileRef
+               location = "group:conv9_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv9_W.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv8_W.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv8_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv4_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv6_W.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv6_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv4_W.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv2_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv2_W.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv5_W.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv7_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv7_W.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv5_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv1_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv3_W.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv3_b.bin">
+            </FileRef>
+            <FileRef
+               location = "group:conv1_W.bin">
+            </FileRef>
+         </Group>
+      </Group>
+   </Group>
+</Workspace>
